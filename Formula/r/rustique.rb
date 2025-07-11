@@ -8,11 +8,7 @@ class Rustique < Formula
   depends_on "rustup" => :build
 
   def install
-    # once upstream adds a toolchain lock, this won't be necessary
-    # system "cargo","+nightly-2025-06-23", "build", "--release"
-    # system "cargo", "build", "--release"
     system "cargo", "install", *std_cargo_args
-   
   end
 
   test do
