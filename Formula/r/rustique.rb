@@ -1,5 +1,5 @@
 class Rustique < Formula
-  desc "Vintage Story mod manager in rust."
+  desc "Vintage Story mod manager in rust"
   homepage "https://github.com/Tekunogosu/Rustique"
   url "https://github.com/Tekunogosu/Rustique/archive/refs/tags/v0.5.9.tar.gz"
   sha256 "ce450a649032e4c13e966619ffeec85029514cb72e02767d71d3532b49973133"
